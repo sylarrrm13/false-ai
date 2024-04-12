@@ -1,0 +1,1 @@
+import{Z as t,_ as o}from"./index-mkXm0lbT.js";const d=e=>(e.pageSize==null&&(e.pageSize=15),t.get(o+"/modelCate",{filter:e.filter,pageNum:e.pageNum,pageSize:e.pageSize})),l=e=>t.delete(o+"/modelCate/",e,{loading:!0}),i=e=>t.put(o+"/modelCate/",e),g=e=>t.post(o+"/modelCate/",e);export{g as a,l as d,d as g,i as u};
